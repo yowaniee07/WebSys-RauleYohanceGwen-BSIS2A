@@ -1,0 +1,114 @@
+body {
+    background-color:  #e8f0fe;
+    font-family: Arial, sans-serif;
+    color: #011e38;
+    min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #011e38 !important;
+    min-height: 55px;
+    padding: 8px 20px;
+}
+
+.navbar-brand {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+/* Center the main content */
+main.container {
+    max-width:1100px;
+    margin: 100px auto;
+
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    border: 1px solid #02235e;
+    
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.card-title {
+    color: #011e38;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Labels */
+.form-label {
+    color: #070808;
+    font-weight: bold;
+}
+
+/* Inputs */
+.form-control {
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* Save button */
+.btn-primary {
+    background-color: #011e38;
+    border-color: #011e38;
+    border-radius: 8px;
+}
+
+.btn-primary:hover {
+    background-color: #023b68;
+    border-color: #023b68;
+}
+
+/* User list */
+#userList .list-group-item {
+    border-radius: 8px;
+    margin-bottom: 15px;
+    background-color: #f8fbff;
+    padding: 10px;
+    
+}
+
+
+/* Message */
+#msg {
+    text-align: center;
+}
+
+/* Copyright */
+.copyright {
+    text-align: center;
+    color: #011e38;
+    font-size: 14px;
+    margin: 25px 0;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    main.container {
+        margin: 20px auto;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    background-color: #011e38;
+    color: white;
+    font-size: 14px;
+}
